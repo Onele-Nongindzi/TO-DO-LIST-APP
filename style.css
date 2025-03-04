@@ -27,7 +27,7 @@ section {
 }
 
 h3 {
-   color: #883302;
+   color: #000000a8;
    font-size: 2rem;
    font-weight: bold; /* Makes the text bold */
    font-family: Arial, sans-serif; /* Sets font to Arial */
@@ -41,7 +41,7 @@ h3 {
 }
 
 h4 {
-   color: #883302;  /* Color for the text */
+   color: #000000a8;  /* Color for the text */
    font-size: 2rem;  /* Font size */
    font-weight: bold;  /* Makes the text bold */
    font-family: Arial, sans-serif;  /* Sets font to Arial */
@@ -244,4 +244,31 @@ input:checked ~ .bubble::after {
    .todo-item .todo-content input {
       padding: 10px;
    }
+}
+footer {
+   background-color: #f1f1f1; /* Light gray background */
+   padding: 1rem;
+   text-align: center;
+   font-size: 1rem;
+   color: #333;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+/* Footer Styling */
+.footer {
+   position: fixed; /* Fixes the footer to the bottom */
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: #252525;
+   color: #fff;
+   text-align: center;
+   padding: 1rem;
+   font-size: 1rem;
+}
+
+/* Optional: Additional style for footer text */
+.footer p {
+   margin: 0;
 }
