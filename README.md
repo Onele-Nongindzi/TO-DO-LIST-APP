@@ -1,9 +1,4 @@
 # Todo App
-
-<img src ="https://github.com/user-attachments/assets/fec595af-c718-434b-bd9a-eb832aea87a4" width="500">
-
-***The deployed version is avilable [here.](https://todo-jomon.vercel.app/)***
-
 ## Technologies Used  
 - **HTML**: For structure  
 - **CSS**: For styling  
