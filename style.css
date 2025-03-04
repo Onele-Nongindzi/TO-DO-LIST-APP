@@ -14,9 +14,10 @@ input:not([type = "radio"]):not([type = "checkbox"]), button {
 }
 
 body {
-   background: #eafbcf8f; /* Baby pink background */
+   background-image: url('images/canva-background.jpg');
    color: #000000a8;
 }
+
 
 section {
    margin-top: 2rem;
@@ -26,18 +27,33 @@ section {
 }
 
 h3 {
-   color: #000;
-   font-size: 1rem;
-   font-weight: 400;
+   color: #883302;
+   font-size: 2rem;
+   font-weight: bold; /* Makes the text bold */
+   font-family: Arial, sans-serif; /* Sets font to Arial */
    margin-bottom: 0.5rem;
+   text-align: center; /* Horizontally centers the text */
+   display: flex;
+   justify-content: center; /* Centers the content horizontally */
+   align-items: center; /* Centers the content vertically if used in a flex container */
+   width: 100%; /* Ensures it takes full width */
+   height: 100%; /* Makes sure it's vertically centered in a container */
 }
 
 h4 {
-   color: #1d1d1e;
-   font-size: 0.875rem;
-   font-weight: 700;
-   margin-bottom: 0.5rem;
+   color: #883302;  /* Color for the text */
+   font-size: 2rem;  /* Font size */
+   font-weight: bold;  /* Makes the text bold */
+   font-family: Arial, sans-serif;  /* Sets font to Arial */
+   margin-bottom: 0.5rem;  /* Space below the h4 */
+   text-align: center;  /* Horizontally centers the text */
+   display: flex;  /* Uses flexbox for centering */
+   justify-content: center;  /* Centers horizontally within flex container */
+   align-items: center;  /* Centers vertically within flex container */
+   width: 100%; /* Ensures it takes full width */
+   height: 100%;  /* Ensure the container has enough height to center */
 }
+
 
 .greeting .title {
    display: flex;
@@ -99,8 +115,8 @@ input[type = "checkbox"] {
    width: 20px;
    height: 20px;
    border-radius: 50%;
-   border: 2px solid rgb(0, 0, 255);
-   box-shadow: 0px 0px 4px rgb(0, 0, 255);
+   border: 2px solid rgb(255, 0, 191);
+   box-shadow: 0px 0px 4px rgb(255, 0, 191);
 }
 
 .bubble.personal {
@@ -114,8 +130,8 @@ input[type = "checkbox"] {
    opacity: 0;
    width: 0px;
    height: 0px;
-   background-color: rgb(0, 0, 255);
-   box-shadow: 0px 0px 4px rgb(0, 0, 255);
+   background-color: rgb(255, 0, 191);
+   box-shadow: 0px 0px 4px rgb(255, 0, 1);
    border-radius: 50%;
    transition: 0.2s ease-in-out;
 }
