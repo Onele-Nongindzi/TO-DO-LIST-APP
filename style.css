@@ -15,7 +15,7 @@ input:not([type = "radio"]):not([type = "checkbox"]), button {
 
 body {
    background: #f1eff5;
-   color: #000;
+   color: #000000a8;
 }
 
 section {
