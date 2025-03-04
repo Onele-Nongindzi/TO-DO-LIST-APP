@@ -109,9 +109,14 @@ function DisplayTodos() {
         })
 
         deleteButton.addEventListener('click', e => {
-            todos = todos.filter(t => t != todo);
-            localStorage.setItem('todos', JSON.stringify(todos));
-            DisplayTodos();
+            // Ask for confirmation before deleting
+            const confirmation = confirm('Are you sure you want to delete this todo?');
+            
+            if (confirmation) {
+                todos = todos.filter(t => t != todo);
+                localStorage.setItem('todos', JSON.stringify(todos));
+                DisplayTodos();
+            }
         })
     })
 }

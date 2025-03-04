@@ -14,7 +14,7 @@ input:not([type = "radio"]):not([type = "checkbox"]), button {
 }
 
 body {
-   background: #f1eff5;
+   background: #eafbcf8f; /* Baby pink background */
    color: #000000a8;
 }
 
