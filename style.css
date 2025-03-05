@@ -69,7 +69,9 @@ h4 {
 .greeting .title input {
    color: #000;
    font-size: 1.5rem;
-   font-weight: 700;
+   font-weight: bold; /* Bold */
+   font-style: italic; /* Italic */
+   font-family: 'Algerian', sans-serif; /* Algerian font */
 }
 
 .create-todo input[type="text"] {
@@ -160,7 +162,7 @@ input:checked ~ .bubble::after {
    font-size: 1.125rem;
    padding: 1rem 1.5rem;
    color: #FFF;
-   background-color: #252525;
+   background-color: #D5006D;
    border-radius: 0.5rem;
    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.532);
    cursor: pointer;
@@ -224,7 +226,7 @@ input:checked ~ .bubble::after {
 }
 
 .todo-item .actions .delete {
-   background-color: #e2462b;
+   background-color: #D5006D;
 }
 
 .todo-item.done .todo-content input {
@@ -245,30 +247,20 @@ input:checked ~ .bubble::after {
       padding: 10px;
    }
 }
+
+/* Footer Styling: Fixed at the very bottom */
 footer {
-   background-color: #f1f1f1; /* Light gray background */
-   padding: 1rem;
-   text-align: center;
-   font-size: 1rem;
-   color: #333;
-   position: relative;
-   bottom: 0;
-   width: 100%;
-}
-/* Footer Styling */
-.footer {
-   position: fixed; /* Fixes the footer to the bottom */
-   bottom: 0;
+   position: fixed;
+   bottom: 0; /* Fixes the footer to the bottom of the page */
    left: 0;
    width: 100%;
-   background-color: #252525;
-   color: #fff;
+   background-color: #fff; /* White background */
+   color: #252525; /* Dark text for contrast */
    text-align: center;
    padding: 1rem;
-   font-size: 1rem;
+   font-size: 0.8rem;
+   border-top: 1px solid #ddd; /* Optional: border for visual separation */
 }
-
-/* Optional: Additional style for footer text */
-.footer p {
-   margin: 0;
+input[type="submit"]:hover {
+   background-color: #6A006A
 }
