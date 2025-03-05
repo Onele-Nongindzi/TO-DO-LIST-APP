@@ -1,4 +1,5 @@
 # Todo App
+![Project screenshot](https://raw.githubusercontent.com/Onele-Nongindzi/TO-DO-LIST-APP/58954e65e8fbc6f4604884cc2a4cf45cff2178be/Screenshot%20(29).png)
 ## Technologies Used  
 - **HTML**: For structure  
 - **CSS**: For styling  
