@@ -30,24 +30,11 @@ Make sure you have the following software installed:
 ### Clone the Repository  
 Run the following commands to clone and navigate into the project:
 
-```bash  
-git clone https://github.com/jomon-j/todo-app.git
 ```
-```bash
-cd todo-app
+git clone https://github.com/Onele-Nongindzi/TO-DO-LIST-APP.git
 ```
-
-<p align ="center">-or-</p>
-
-### Fork the Repository  
-1. Fork this repository on GitHub.  
-2. Clone your fork.
-
-```bash  
-git clone https://github.com/your-username/your-forked-repository-name.git
 ```
-```bash
-cd your-forked-repository-name    
+cd TO-DO-LIST-APP
 ```
 
 ## 🌟 *Don’t Forget to Star!*
